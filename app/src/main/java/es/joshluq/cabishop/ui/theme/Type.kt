@@ -12,24 +12,24 @@ import es.joshluq.cabishop.R
 val fonts = FontFamily(
     Font(
         resId = R.font.cabify_circular_regular,
-        weight = FontWeight.W900,
+        weight = FontWeight.Normal,
         style = FontStyle.Normal
     ),
     Font(
-        resId = R.font.cabify_circular_regular,
-        weight = FontWeight.W900,
-        style = FontStyle.Italic
-    ),
-    Font(
-        resId = R.font.cabify_circular_regular,
-        weight = FontWeight.W700,
+        resId = R.font.cabify_circular_bold,
+        weight = FontWeight.Bold,
         style = FontStyle.Normal
     )
-
 )
 
-// Set of Material typography styles to start with
 val Typography = Typography(
+    bodyMedium = TextStyle(
+        fontFamily = fonts,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp,
+        lineHeight = 20.sp,
+        letterSpacing = 0.5.sp
+    ),
     bodyLarge = TextStyle(
         fontFamily = fonts,
         fontWeight = FontWeight.Normal,
@@ -50,6 +50,14 @@ val Typography = Typography(
         fontSize = 11.sp,
         lineHeight = 16.sp,
         letterSpacing = 0.5.sp
+    ),
+    headlineLarge = TextStyle(
+        fontFamily = fonts,
+        fontWeight = FontWeight.Medium,
+        fontSize = 32.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.5.sp
     )
+
 
 )

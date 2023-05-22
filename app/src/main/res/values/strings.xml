@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">CabiShop</string>
+
+    <string name="shoppingcart_checkout_button">Check Out</string>
+    <string name="shoppingcart_title_screen">Your Cart</string>
+    <string name="shoppingcart_baseprice_label">"Base price: "</string>
+    <string name="shoppingcart_discounts_label">"Discounts: "</string>
+    <string name="shoppingcart_totalprice_label">"Total price: "</string>
+    <string name="shoppingcart_emptylist_label">Cart is Empty</string>
+    <string name="productlist_error_message">We has a little problem, please try again</string>
+    <string name="productlist_error_button">try again</string>
+
+    <string name="checkout_title_screen">Your Order</string>
+
+
 </resources>
